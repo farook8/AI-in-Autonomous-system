@@ -1,0 +1,19 @@
+# Obstacle Detection for Robot Safety
+
+# Input value
+distance = 0.35   # meters
+
+# Initial velocity
+velocity = 1
+
+# Detection logic
+if distance < 0.5:
+    velocity = 0
+    status = "Robot Halted Safely"
+else:
+    status = "Robot Moving"
+
+# Output
+print("Obstacle Distance:", distance, "m")
+print("Velocity:", velocity)
+print("Status:", status)
