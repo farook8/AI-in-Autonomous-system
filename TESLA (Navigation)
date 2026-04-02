@@ -1,0 +1,15 @@
+# Goal Reached Check
+
+# Input value
+distance_to_goal = 0.15   # meters
+threshold = 0.2           # goal threshold
+
+# Goal check
+if distance_to_goal < threshold:
+    result = "Goal Reached"
+else:
+    result = "Goal Not Reached"
+
+# Output
+print("Distance to Goal =", distance_to_goal, "m")
+print("Result:", result)
