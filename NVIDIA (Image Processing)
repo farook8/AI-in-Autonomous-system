@@ -1,0 +1,15 @@
+# RGB to Grayscale Conversion
+
+# Input RGB values
+R = 120
+G = 150
+B = 200
+
+# Grayscale formula
+gray = 0.3 * R + 0.59 * G + 0.11 * B
+
+# Output
+print("R =", R)
+print("G =", G)
+print("B =", B)
+print("Gray =", int(gray))
