@@ -1,0 +1,13 @@
+# Sensor Fusion (Simple Mean Fusion)
+
+# Input values
+imu = 32      # degrees
+vision = 28   # degrees
+
+# Fusion calculation
+fused = (imu + vision) / 2
+
+# Output
+print("IMU =", imu, "degrees")
+print("Vision =", vision, "degrees")
+print("Fused Angle =", fused, "degrees")
