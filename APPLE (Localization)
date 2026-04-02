@@ -1,0 +1,15 @@
+# Localization Accuracy Check
+
+# Input value
+pose_error = 0.08   # meters
+threshold = 0.1     # acceptable error
+
+# Accuracy check
+if pose_error < threshold:
+    result = "Accurate Localization"
+else:
+    result = "Localization Error High"
+
+# Output
+print("Pose Error =", pose_error, "m")
+print("Result:", result)
