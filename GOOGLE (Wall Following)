@@ -1,0 +1,16 @@
+# Wall Following Controller
+
+# Input values
+desired_distance = 0.5   # meters
+actual_distance = 0.2    # meters
+
+# Control decision
+if actual_distance < desired_distance:
+    action = "Move Away from Wall"
+else:
+    action = "Maintain Distance"
+
+# Output
+print("Desired Distance =", desired_distance, "m")
+print("Actual Distance =", actual_distance, "m")
+print("Action:", action)
