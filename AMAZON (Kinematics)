@@ -1,0 +1,15 @@
+# Differential Drive Motion Check
+
+# Wheel speeds
+left_wheel = 3
+right_wheel = 3
+
+# Motion determination
+if left_wheel == right_wheel:
+    motion = "Straight Line Motion"
+else:
+    motion = "Turning Motion"
+
+# Output
+print("Wheel Speeds =", (left_wheel, right_wheel))
+print("Robot Motion:", motion)
