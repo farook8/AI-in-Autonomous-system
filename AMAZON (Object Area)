@@ -1,0 +1,13 @@
+# Object Area Calculation
+
+# Input values
+width = 60   # pixels
+height = 30  # pixels
+
+# Area calculation
+area = width * height
+
+# Output
+print("Width =", width, "px")
+print("Height =", height, "px")
+print("Area =", area, "px^2")
