@@ -1,0 +1,13 @@
+# Feedback Control Error Calculation
+
+# Input values
+setpoint = 10
+actual = 7
+
+# Error calculation
+error = setpoint - actual
+
+# Output
+print("Setpoint =", setpoint)
+print("Actual =", actual)
+print("Error =", error)
