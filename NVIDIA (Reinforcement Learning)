@@ -1,0 +1,13 @@
+# Q-learning value update
+
+# Input values
+reward = 8
+learning_rate = 0.5
+
+# Q-value calculation
+Q = learning_rate * reward
+
+# Output
+print("Reward =", reward)
+print("Learning Rate =", learning_rate)
+print("Q-value =", Q)
