@@ -1,0 +1,16 @@
+# RRT Goal Connection Check
+
+# Input values
+distance_to_goal = 0.3   # meters
+goal_radius = 0.4        # meters
+
+# Check if node connects to goal
+if distance_to_goal <= goal_radius:
+    result = "Goal Connected"
+else:
+    result = "Goal Not Connected"
+
+# Output
+print("Goal Radius =", goal_radius, "m")
+print("Distance to Goal =", distance_to_goal, "m")
+print("Result:", result)
