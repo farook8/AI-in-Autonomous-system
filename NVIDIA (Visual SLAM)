@@ -1,0 +1,18 @@
+# Visual SLAM Pose Update
+
+# Previous pose
+x_prev = 2
+y_prev = 3
+
+# Motion displacement
+dx = 0.4
+dy = 0.6
+
+# New pose calculation
+x_new = x_prev + dx
+y_new = y_prev + dy
+
+# Output
+print("Previous Pose =", (x_prev, y_prev))
+print("Motion =", (dx, dy))
+print("New Pose =", (x_new, y_new))
