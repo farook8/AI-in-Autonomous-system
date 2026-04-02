@@ -1,0 +1,15 @@
+# Obstacle Avoidance Decision
+
+# Input value
+distance = 0.25   # meters
+threshold = 0.5   # safe distance
+
+# Decision rule
+if distance < threshold:
+    action = "Turn Right"
+else:
+    action = "Move Forward"
+
+# Output
+print("Obstacle Distance =", distance, "m")
+print("Action:", action)
