@@ -1,0 +1,15 @@
+# Edge Strength Calculation
+
+import math
+
+# Input values
+Gx = 5
+Gy = 12
+
+# Edge detection formula
+edge = math.sqrt(Gx**2 + Gy**2)
+
+# Output
+print("Gx =", Gx)
+print("Gy =", Gy)
+print("Edge Strength =", int(edge))
