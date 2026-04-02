@@ -1,0 +1,16 @@
+# Path Planning using minimum cost selection
+
+# Path costs
+path_A = 6
+path_B = 4
+
+# Greedy decision rule
+if path_A < path_B:
+    result = "Path A Selected"
+else:
+    result = "Path B Selected"
+
+# Output
+print("Path A cost =", path_A)
+print("Path B cost =", path_B)
+print("Result:", result)
