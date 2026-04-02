@@ -1,0 +1,13 @@
+# Predictive Maintenance Health Score
+
+# Input values
+T = 80   # Temperature
+V = 10   # Vibration
+
+# Health score calculation
+health = 100 - (0.4 * T + 1.1 * V)
+
+# Output
+print("Temperature =", T)
+print("Vibration =", V)
+print("Health =", int(health))
