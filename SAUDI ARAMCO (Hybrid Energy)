@@ -1,0 +1,15 @@
+# Hybrid Energy Management
+
+# Input value
+battery = 18   # percentage
+threshold = 20
+
+# Energy state decision
+if battery < threshold:
+    mode = "Charging Mode"
+else:
+    mode = "Operational Mode"
+
+# Output
+print("Battery Level =", battery, "%")
+print("System Mode:", mode)
