@@ -1,0 +1,15 @@
+# Logistics Delivery Completion Check
+
+# Input value
+time = 95   # seconds
+delivery_limit = 120   # allowed delivery time
+
+# Delivery check
+if time <= delivery_limit:
+    result = "Package Delivered"
+else:
+    result = "Delivery Failed"
+
+# Output
+print("Delivery Time =", time, "s")
+print("Result:", result)
