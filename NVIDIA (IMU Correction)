@@ -1,0 +1,15 @@
+# IMU Drift Correction
+
+# Input value
+drift = 1.8   # degrees
+
+# Assume measured orientation
+orientation = 90   # degrees
+
+# Drift correction
+corrected_orientation = orientation - drift
+
+# Output
+print("Drift =", drift, "degrees")
+print("Corrected Orientation =", corrected_orientation, "degrees")
+print("Orientation Stabilized")
