@@ -1,0 +1,15 @@
+# Configuration Space (C-Space) Obstacle Inflation
+
+# Input value
+robot_radius = 0.6   # meters
+
+# Obstacle inflation logic
+inflated_obstacle = robot_radius
+
+# Result
+space = "Collision-Free Space"
+
+# Output
+print("Robot Radius =", robot_radius, "m")
+print("Inflated Obstacle Boundary =", inflated_obstacle, "m")
+print("Result:", space)
