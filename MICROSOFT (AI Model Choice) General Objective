@@ -1,0 +1,14 @@
+# AI Model Selection based on dataset type
+
+# Input
+labeled_data = True
+
+# Decision rule
+if labeled_data:
+    model = "Supervised Learning - Classification Model"
+else:
+    model = "Unsupervised Learning Model"
+
+# Output
+print("Labeled Dataset Available:", labeled_data)
+print("Selected AI Model:", model)
