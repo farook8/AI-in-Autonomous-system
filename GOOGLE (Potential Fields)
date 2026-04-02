@@ -1,0 +1,13 @@
+# Artificial Potential Field - Net Force Calculation
+
+# Input values
+attractive = 12
+repulsive = 5
+
+# Net force calculation
+net_force = attractive - repulsive
+
+# Output
+print("Attractive Force =", attractive)
+print("Repulsive Force =", repulsive)
+print("Net Force =", net_force)
