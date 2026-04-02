@@ -1,0 +1,13 @@
+# Wander Bot Random Walk
+
+import random
+
+# Random angle selection (example 90 degrees)
+angle = random.choice([90])
+
+# Direction update
+direction = angle
+
+# Output
+print("Random Angle =", angle, "degrees")
+print("Direction Updated")
