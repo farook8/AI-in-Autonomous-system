@@ -1,0 +1,13 @@
+# PID Proportional Control Calculation
+
+# Input values
+error = 12
+Kp = 0.12
+
+# Proportional control output
+control_output = Kp * error
+
+# Output
+print("Error =", error)
+print("Kp =", Kp)
+print("Control Output =", control_output)
