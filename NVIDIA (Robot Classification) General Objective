@@ -1,0 +1,16 @@
+# Robot Classification based on motion parameters
+
+# Input values
+speed = 6        # meters per second
+altitude = 15    # meters
+
+# Classification logic
+if altitude > 0:
+    robot_type = "Aerial Autonomous Robot"
+else:
+    robot_type = "Ground Autonomous Robot"
+
+# Output
+print("Speed:", speed, "m/s")
+print("Altitude:", altitude, "m")
+print("Robot Type:", robot_type)
