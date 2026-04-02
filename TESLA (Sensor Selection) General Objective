@@ -1,0 +1,21 @@
+# Sensor Selection for Autonomous Vehicle
+
+# Required detection range
+required_range = 80  # meters
+
+# Sensor ranges (meters)
+camera_range = 30
+radar_range = 60
+lidar_range = 100
+
+# Sensor selection logic
+if required_range <= camera_range:
+    sensor = "Camera Selected"
+elif required_range <= radar_range:
+    sensor = "Radar Selected"
+else:
+    sensor = "LiDAR Selected"
+
+# Output
+print("Required Range:", required_range, "m")
+print("Selected Sensor:", sensor)
