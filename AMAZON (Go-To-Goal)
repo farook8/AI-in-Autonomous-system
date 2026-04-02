@@ -1,0 +1,15 @@
+# Go-To-Goal Euclidean Distance Calculation
+
+import math
+
+# Positions
+x1, y1 = 0, 0
+x2, y2 = 6, 8
+
+# Distance formula
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+# Output
+print("Start Position =", (x1, y1))
+print("Goal Position =", (x2, y2))
+print("Distance =", int(distance), "m")
