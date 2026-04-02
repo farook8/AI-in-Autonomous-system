@@ -1,0 +1,13 @@
+# Bayesian Belief Update
+
+# Input values
+prior = 0.7
+observation = 0.6
+
+# Belief update calculation
+updated_belief = prior * observation
+
+# Output
+print("Prior =", prior)
+print("Observation =", observation)
+print("Updated Belief =", updated_belief)
