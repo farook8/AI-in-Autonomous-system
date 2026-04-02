@@ -1,0 +1,14 @@
+# Teleoperation Key Mapping
+
+# Input key
+key = "A"
+
+# Command mapping
+if key == "A":
+    action = "Left Turn"
+else:
+    action = "No Action"
+
+# Output
+print("Key Pressed =", key)
+print("Command:", action)
