@@ -1,0 +1,22 @@
+# Optimization to find minimum energy
+
+# Energy function: E(x) = x^2 - 6x + 10
+
+import sympy as sp
+
+# Define variable
+x = sp.symbols('x')
+
+# Define energy function
+E = x**2 - 6*x + 10
+
+# Compute derivative
+dE_dx = sp.diff(E, x)
+
+# Solve derivative = 0
+minimum_point = sp.solve(dE_dx, x)
+
+# Output
+print("Energy Function:", E)
+print("Derivative:", dE_dx)
+print("Minimum Energy at x =", minimum_point[0])
