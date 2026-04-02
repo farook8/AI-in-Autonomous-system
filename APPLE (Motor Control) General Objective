@@ -1,0 +1,13 @@
+# Motor Speed Calculation
+
+# Input values
+distance = 20   # meters
+time = 8        # seconds
+
+# Speed calculation
+speed = distance / time
+
+# Output
+print("Distance:", distance, "m")
+print("Time:", time, "s")
+print("Motor Speed =", speed, "m/s")
