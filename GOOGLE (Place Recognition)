@@ -1,0 +1,16 @@
+# Place Recognition using similarity threshold
+
+# Input values
+similarity = 0.94
+threshold = 0.9
+
+# Recognition logic
+if similarity > threshold:
+    recognized = "Place Recognized"
+else:
+    recognized = "Place Not Recognized"
+
+# Output
+print("Similarity Score:", similarity)
+print("Threshold:", threshold)
+print("Result:", recognized)
