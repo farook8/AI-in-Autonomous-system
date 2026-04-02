@@ -1,0 +1,15 @@
+# Camera Projection Calculation
+
+# Input values
+f = 600   # focal length
+X = 3     # horizontal coordinate
+Z = 6     # depth
+
+# Projection formula
+u = f * X / Z
+
+# Output
+print("f =", f)
+print("X =", X)
+print("Z =", Z)
+print("Pixel Coordinate (u) =", u, "pixels")
