@@ -1,0 +1,14 @@
+# Line Detection Steering Decision
+
+# Input value
+offset = 25   # pixels
+
+# Control rule
+if offset > 0:
+    action = "Turn Left"
+else:
+    action = "Turn Right"
+
+# Output
+print("Offset =", offset, "px")
+print("Action:", action)
