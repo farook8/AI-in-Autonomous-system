@@ -1,0 +1,10 @@
+# Waypoint Patrolling
+
+# Number of waypoints
+waypoints = 5
+
+# Patrol routine
+for i in range(waypoints):
+    print("Navigating to Waypoint", i + 1)
+
+print("Continuous Patrol")
