@@ -1,0 +1,14 @@
+# Rule-Based Agent Decision
+
+# Input conditions
+obstacle = True
+speed = 5   # current robot speed
+
+# Rule logic
+if obstacle and speed > 0:
+    action = "Stop"
+else:
+    action = "Continue"
+
+# Output
+print("Action:", action)
