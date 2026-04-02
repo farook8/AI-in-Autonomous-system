@@ -1,0 +1,13 @@
+# Kalman Filter Simplified State Estimation
+
+# Input values
+prediction = 20
+measurement = 24
+
+# Kalman update (simple average)
+estimate = (prediction + measurement) / 2
+
+# Output
+print("Prediction =", prediction)
+print("Measurement =", measurement)
+print("Estimated State =", estimate)
